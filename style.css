@@ -32,6 +32,15 @@ a:hover {
   color: lightblue;
 }
 
+.image-container {
+  float: left;
+  height: 100%;
+  margin-right: 20px; /* Adjust the margin as desired */
+}
+
+.content {
+  text-align: center;
+}
 
 .container {
   width: 700px;
