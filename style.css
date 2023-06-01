@@ -33,9 +33,9 @@ a:hover {
 }
 
 .image-container {
-  float: left;
+  float: right;
   height: 100%;
-  margin-right: 20px; /* Adjust the margin as desired */
+  margin-left: 20px; /* Adjust the margin as desired */
   max-width: 100%;
   height: auto;
 }
@@ -87,20 +87,34 @@ a:hover {
     font-weight: 300;
     font-size: 20px;
   }
+
 }
 
 .card-white {
-  background-color: #990011;
-  height: 490px;
-  padding: 0px;
+  background-color: #F03A47;
+  height: 399px;
+  width: 399px;
+  padding: 10px;
   box-shadow: 0px 15px 30px rgba(0,0,0,0.5);
   border-radius: 4px;
   margin: 20px 0px;
   text-align: center;
 }
+.card-top-red {
+  background-color: #F03A47;
+  width: 400px;
+  height: 400px;
+  padding: 0px;
+  box-shadow: 0px 15px 30px rgba(0,0,0,0.5);
+  border-radius: 4px;
+  margin: 20px 0px;
+  text-align: center;
+  margin: 0 auto;
+}
+
 .card-red {
-  background-color: #990011;
-  padding: 20px;
+  background-color: #F03A47;
+  padding: 2px;
   box-shadow: 0px 15px 30px rgba(0,0,0,0.5);
   border-radius: 4px;
   margin: 20px 0px;
@@ -110,15 +124,15 @@ a:hover {
   border-radius: 50%;
 }
 .btn-blue {
-  background-color: #acacac;
+  background-color: #4E2534;
   color: white;
   padding: 10px 15px;
   border-radius: 4px;
   text-align: right;
 }
 .btn-blue:hover {
-  background-color: black;
-  color: white;
+  background-color: #FFFCF9;
+  color: #F03A47;
 }
 .list-inline {
   list-style: none;
@@ -139,4 +153,22 @@ a:hover {
 
 #introduction p {
   margin-bottom: 40px;
+}
+
+#profile-pic2 {
+  display: block;
+
+  width: 99%;
+}
+
+.flex-container {
+  display: flex;
+}
+
+.flex-child {
+  flex: 1;
+}
+
+.flex-child:first-child {
+  margin-right: 50px;
 }
