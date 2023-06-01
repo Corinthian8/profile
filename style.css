@@ -6,7 +6,23 @@ body {
   font-family: 'Jost', serif;
   font-size: 17px;
   font-weight: lighter;
+  animation-name: color;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
 }
+
+@keyframes color {
+  0% {
+    background-color: #252020;
+  }
+  50% {
+    background-color: #532e2e;
+  }
+  100 {
+    background-color: #252020;
+  }
+}
+
 h1, h2, h3 {
   font-family: 'Jost', sans-serif;
 }
